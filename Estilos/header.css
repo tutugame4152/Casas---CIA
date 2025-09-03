@@ -1,39 +1,39 @@
-.Logo{
-    font-size: 40px;
+header {
+    background-color: rgb(98, 166, 255);
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px 40px;
+}
+
+.Logo {
+    font-size: 60px;
     border: 5px solid rgb(170, 207, 255);
     color: white;
-    border-width: 100%;
-    max-width: 220px;
-    padding: 5px;
+    padding: 10px 20px;
     border-radius: 22px;
     text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.226);
 }
 
-ul{
-    text-align: center;
+ul {
     display: flex;
-    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.links{
+.links {
     font-size: 30px;
     border: 5px solid rgb(170, 207, 255);
-    max-width: 140px;
-    padding: 5px;
-    border-radius: 22px;
-
+    padding: 8px 15px;
+    border-radius: 12px;
 }
 
-.ancoralinks{
+.ancoralinks {
     text-decoration: none;
     color: white;
-}
-
-header{
-    background-color: rgb(98, 166, 255);
-}
-
-main{
-    background-color: rgba(222, 236, 255, 1);
-    z-index: -2;
 }
