@@ -24,7 +24,41 @@ main{
     border-radius: 22px;
 }
 
-#casa1 img{
-     max-width: 400px;   
+.infocasas{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    align-items: center;
+    justify-content: center;
 }
 
+.infocasas p{
+    background-color: rgba(38, 165, 255, 1);
+    border: 2px solid rgba(170, 207, 255, 1);
+    border-radius: 40px;    
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.visualizarcasa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.visualizarcasa a{
+    background-color: rgba(38, 165, 255, 1);
+    border: 2px solid rgba(170, 207, 255, 1);
+    border-radius: 40px;    
+    text-decoration: none;
+    padding: 10px 40px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#casa1 img{
+     max-width: 400px;
+     
+}
